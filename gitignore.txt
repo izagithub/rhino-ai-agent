@@ -1,0 +1,24 @@
+# Secrets – never commit API keys or shell config
+.env
+*.key
+.zshrc
+.bash_profile
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Rhino / Grasshopper working files (keep models private)
+*.3dm
+*.3dmbak
+*.rhl
+*.gh
+*.ghx
+
+# Agent's temporary files
+pracownia/
